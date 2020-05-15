@@ -21,7 +21,7 @@ metadata
 {
 	definition(name: "HubConnect Aeotec Home Energy Monitor", namespace: "shackrat", author: "Steve White")
 	{
-		 capability "Energy Meter"
+	 capability "Energy Meter"
          capability "Power Meter"
          capability "Configuration"
          capability "Sensor"
@@ -39,9 +39,9 @@ metadata
          attribute "voltage2", "number"
          attribute "cost1", "number"
          attribute "cost2", "number"
-		 attribute "version", "string"
+	 attribute "version", "string"
 
-	     command "sync"
+	 command "sync"
          command "reset"
 	}
 }
