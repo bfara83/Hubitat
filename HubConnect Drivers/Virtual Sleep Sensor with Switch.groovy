@@ -8,7 +8,7 @@ metadata {
         capability "SleepSensor"
         capability "Switch"
 		
-		command "asleep"
+        command "asleep"
         command "awake"
 		
     }   
