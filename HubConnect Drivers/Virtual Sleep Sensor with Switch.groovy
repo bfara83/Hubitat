@@ -3,7 +3,7 @@
  */
 
 metadata {
-    definition (name: "Virtual Sleep Sensor with Switch", namespace: "bfara83", author: "Bradley Fennell") {
+    definition (name: "Virtual Sleep Sensor with Switch", namespace: "bfara83", author: "bfara83") {
         capability "Sensor"
         capability "SleepSensor"
         capability "Switch"
